@@ -14,9 +14,9 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px); }
+    transform: translateX(-10rem); }
   80% {
-    transform: translateX(10px); }
+    transform: translateX(1rem); }
   100% {
     opacity: 1;
     transform: 0; } }
@@ -24,9 +24,9 @@ body {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px); }
+    transform: translateX(10rem); }
   80% {
-    transform: translateX(-10px); }
+    transform: translateX(-1rem); }
   100% {
     opacity: 1;
     transform: 0; } }
@@ -34,7 +34,7 @@ body {
 @keyframes moveInButton {
   0% {
     opacity: 0;
-    transform: translateY(30px); }
+    transform: translateY(3rem); }
   100% {
     opacity: 1;
     transform: 0; } }
@@ -53,7 +53,7 @@ body {
   margin-bottom: 4.1rem; }
   .heading-primary--main {
     display: block;
-    font-size: 19rem;
+    font-size: 4.1rem;
     font-weight: 400;
     letter-spacing: 1.5rem;
     animation-name: moveInLeft;
@@ -118,7 +118,6 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  
   .header__logo-box {
     position: absolute;
     top: 4rem;
