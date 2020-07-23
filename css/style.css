@@ -446,7 +446,7 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.form__group {
+.form__group:nth-child(5) {
   margin-top: 6rem;
   text-align: center; }
 
